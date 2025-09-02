@@ -1,6 +1,6 @@
 function Footer({ content, contact }) {
   return (
-    <footer className="bg-gray-200">
+    <footer className="bg-gray-200 flex flex-col justify-center items-center">
       <div className="bg-primary h-1 w-full" />
       <div className="container items-center">
         <span className="text-base font-light">Contact us : {contact}</span>

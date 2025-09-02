@@ -64,7 +64,7 @@ const products = [
         id: 123548765426,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
+        type: "Mouse",
         desc: "This is a modern keyboard",
         price: 69,
     },

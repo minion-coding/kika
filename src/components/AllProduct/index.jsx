@@ -1,9 +1,11 @@
 import PropTypes from "prop-types";
-
 import { useEffect, useState, useRef } from "react";
+import { useSearch } from "../../contexts/searchContext";
+
 import Product from "../Product";
 
 function AllProduct({ items }) {
+  const { searchKeyword } = useSearch();
   return (
     <section>
       <div className="container mb-15 mx-auto">
@@ -23,7 +25,12 @@ function AllProduct({ items }) {
         </div>
         <div className="mt-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-5 gap-y-2">
           {items.map((val) => {
-            return <Product data={val} key={val.id} />;
+            if (
+              val.title.toLowerCase().includes(searchKeyword) ||
+              val.type.toLowerCase().includes(searchKeyword)
+            ) {
+              return <Product data={val} />;
+            }
           })}
         </div>
       </div>
@@ -32,7 +39,13 @@ function AllProduct({ items }) {
 }
 
 AllProduct.PropTypes = {
-  items: PropTypes.array.isRequired,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      imgUrl: PropTypes.string.isRequired,
+      type: PropTypes.string.isRequired,
+      title: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default AllProduct;

@@ -12,7 +12,7 @@ function SearchBox() {
         val={searchKeyword}
         className="flex-1 text-gray-700"
         onChange={(e) => {
-          setSearchKeyword(e.target.value);
+          setSearchKeyword(e.target.value.toLowerCase());
         }}></input>
       <RiSearchLine size={24} color="gray" />
     </div>
