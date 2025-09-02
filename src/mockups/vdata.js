@@ -48,73 +48,100 @@ const products = [
         id: 12354876546,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765461,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765426,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Mouse",
-        desc: "This is a modern keyboard",
+        category: "Mouse",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765463,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765464,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765465,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765466,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765467,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
     {
         id: 123548765468,
         imgUrl: './src/assets/1.png',
         title: "Keyboard K2 Wireless Mechanical",
-        type: "Keyboard",
-        desc: "This is a modern keyboard",
+        category: "Keyboard",
+        desc: `Elevate your typing experience with the Keyboard K2 Wireless Mechanical. This sleek and compact keyboard combines the tactile responsiveness of mechanical switches with the convenience of wireless connectivity, delivering unparalleled performance and versatility.
+
+Crafted with precision, the Keyboard K2 features a durable aluminum alloy body that exudes a premium, modern aesthetic. The low-profile design and compact 75% layout make it the perfect companion for your desktop or on-the-go productivity.`,
         price: 69,
+        stock: 10,
     },
 ]
 
