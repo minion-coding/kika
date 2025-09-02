@@ -33,7 +33,7 @@ function Navigation() {
   ];
 
   return (
-    <div className="ml-10">
+    <div className="px-5">
       <Menu
         items={items}
         theme={"light"}

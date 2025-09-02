@@ -70,32 +70,34 @@ function Category({ items, theme }) {
   };
 
   return (
-    <div className="my-8 bg-white shadow-lg">
-      <h2 className="py-2 ml-3">Category</h2>
-      <div
-        className="overflow-hidden w-full touch-pan-x"
-        ref={containerRef}
-        onTouchStart={handlePanStart}
-        onTouchMove={handlePanMove}
-        onTouchCancel={handlePanEnd}
-        onTouchEnd={handlePanEnd}>
-        <ul
-          className="flex w-fit"
-          ref={contentRef}
-          style={{
-            transform: `translateX(${translateX}px)`,
-            transition: "transform 0.3s ease",
-          }}>
-          {items.map(({ key, title, imgUrl, link }) => {
-            return (
-              <li key={key} onClick={() => handleClick(link)}>
-                <CategoryItem title={title} imgUrl={imgUrl} theme={theme} />
-              </li>
-            );
-          })}
-        </ul>
+    <section>
+      <div className="container my-8 mx-auto bg-white shadow-lg">
+        <h2 className="py-2 ml-3">Category</h2>
+        <div
+          className="overflow-hidden w-full touch-pan-x"
+          ref={containerRef}
+          onTouchStart={handlePanStart}
+          onTouchMove={handlePanMove}
+          onTouchCancel={handlePanEnd}
+          onTouchEnd={handlePanEnd}>
+          <ul
+            className="flex w-fit"
+            ref={contentRef}
+            style={{
+              transform: `translateX(${translateX}px)`,
+              transition: "transform 0.3s ease",
+            }}>
+            {items.map(({ key, title, imgUrl, link }) => {
+              return (
+                <li key={key} onClick={() => handleClick(link)}>
+                  <CategoryItem title={title} imgUrl={imgUrl} theme={theme} />
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
 

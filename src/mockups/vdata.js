@@ -43,4 +43,79 @@ const categories = [
     },
 ]
 
-export { categories };
+const products = [
+    {
+        id: 12354876546,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765461,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765426,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765463,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765464,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765465,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765466,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765467,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+    {
+        id: 123548765468,
+        imgUrl: './src/assets/1.png',
+        title: "Keyboard K2 Wireless Mechanical",
+        type: "Keyboard",
+        desc: "This is a modern keyboard",
+        price: 69,
+    },
+]
+
+export { categories, products };
