@@ -1,6 +1,18 @@
 @import "tailwindcss";
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
+@theme {
+  --color-primary: #d75a4a;
+  --color-primary-alt: #a7473b;
+}
+
+* {
+  @apply box-border;
+}
+
+a {
+  @apply cursor-pointer;
+}
+
+body {
+  @apply text-gray-700 bg-gray-100;
 }
