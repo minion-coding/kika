@@ -11,9 +11,23 @@ Currently, two official plugins are available:
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-# KiKa E-Commerce Website for 💻
+# KiKa E-Commerce Website For 💻
 
 ## Homepage Design
 
 ### Screenshot
 ![Example Image](screenshots/Homepage.png)
+
+### Components
+
+- AllProduct
+- Category
+- Menu
+- SearchBox
+- Product
+
+## Product Detail Page Design
+
+### Screenshot
+![Example Image](screenshots/Product_detail_page.png)
+
